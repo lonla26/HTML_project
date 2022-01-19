@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+		<title> My Portfolio Webpage </title>
+    </head>
+    
+    <body>
+        <header>
+            <h1 id="home"> Welcome ! </h1>
+            <nav> 
+                <ul style="list-style-type:none;" >
+                    <li> <a href="#home"> Home  </a> </li>
+                    <li> <a href="#about"> About </a> </li>
+                    <li> <a href="#work"> Work </a> </li>
+                    <li> <a href="#resume"> Resume </a> </li>
+                    <li> <a href="#contact"> Contact </a> </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div>
+                <video width="420" height="315" controls>
+                    <source src="./res/Introduction.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>  
+            </div>
+            <div> 
+                <form>
+                    <section>
+                        <label> About :  </label>
+                        <br/>
+                        <textarea id="about" name="about" cols="30" rows="5"> </textarea>
+                        <br/>
+                    </section>
+                    
+                    <section>
+                        <label> Work :  </label>
+                        <input id="work" type="text" name="work" placeholder="Actual work" />
+                        <br />
+                    </section>
+
+                    
+                    <section>
+                        <label> Resume :  </label>
+                        <br/>
+                        <textarea id="resume" name="resume" cols="30" rows="5" > </textarea>
+                        <br />
+                    </section>
+                    
+                    <section>
+                        <label> Contact :</label>
+                        <input id="contact" type="number" name="contact" placeholder="Phone number" />
+                        <br />
+                    </section>
+                    
+                    <input type="submit" value="Submit" />
+                </form>
+            </div>
+
+        </main>
+        <footer>
+            <p>Author: Cédric LONLA 
+                <br/>
+                <a href="mailto:cmoffolonla@gmail.com"> cmoffolonla@gmail.com </a>
+            </p>
+            <p>&copy; Collabrains 2022</p>
+        </footer>
+    </body>
+</html>
